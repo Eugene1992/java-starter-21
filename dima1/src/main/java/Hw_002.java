@@ -27,5 +27,23 @@ public class Hw_002 {
         short seven2 = (short) (sh2 / b3);
         byte sevensum = (byte) (seven1 + seven2);
         System.out.println(sevensum);
+        short vos1 = 30;
+        short vos2 = 10;
+        short vos1vos2 = (short) (vos1 / vos2);
+        System.out.println(vos1vos2);
+        byte vosb1 = 40;
+        byte vosb2 = 4;
+        byte vosb1vosb2 = (byte) (vosb1 / vosb2);
+        System.out.println(vosb1vosb2);
+        int vosem = vos1vos2 * vosb1vosb2;
+        System.out.println(vosem);
+
+
+
+
+
+
+
+
     }
 }
