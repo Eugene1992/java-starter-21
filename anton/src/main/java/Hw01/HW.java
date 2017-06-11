@@ -14,4 +14,5 @@ public class HW {
         System.out.println(div);
         System.out.println(mult);
     }
+
 }
