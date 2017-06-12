@@ -7,7 +7,6 @@ public class Hw_002 {
         short s = 15000;
         int I = 4000000;
         long L = 67000000000L;
-
         byte t_sum = 15 + 11;
         System.out.println(t_sum);
         short t_vich = 300 - 199;
@@ -37,6 +36,19 @@ public class Hw_002 {
         System.out.println(vosb1vosb2);
         int vosem = vos1vos2 * vosb1vosb2;
         System.out.println(vosem);
+        int m1 = 20;
+        int m2 = 5;
+        int m3 = 19;
+         m1 = m3 ;
+         m2 = m3;
+        System.out.println(m1);
+        System.out.println(m2);
+        int k1 = 36;
+        int k2 = 40;
+        k1 = 15;
+        k2 = 15;
+        System.out.println(k1);
+        System.out.println(k2);
 
 
 
