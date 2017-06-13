@@ -39,8 +39,8 @@ public class Hw_002 {
         int m1 = 20;
         int m2 = 5;
         int m3 = 19;
-         m1 = m3 ;
-         m2 = m3;
+        m1 = m3;
+        m2 = m3;
         System.out.println(m1);
         System.out.println(m2);
         int k1 = 36;
@@ -49,13 +49,5 @@ public class Hw_002 {
         k2 = 15;
         System.out.println(k1);
         System.out.println(k2);
-
-
-
-
-
-
-
-
     }
 }

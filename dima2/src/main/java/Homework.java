@@ -1,7 +1,7 @@
 /**
  * Created by Дима on 12.06.2017.
  */
-public class homework {
+public class Homework {
     public static void main(String[] args) {
         byte a = 25;
         short b = 350;
@@ -39,10 +39,5 @@ public class homework {
         p = 5;
         System.out.println(x);
         System.out.println(p);
-
     }
-
-
-
-
 }

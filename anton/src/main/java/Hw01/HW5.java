@@ -5,15 +5,16 @@ public class HW5 {
         byte b1 = 20;
         byte b2 = 40;
         byte b3;
-            b3 = b2;
-            b2 = b1;
-        System.out.println(b3);
+        b3 = b2;
+        b2 = b1;
+        b1 = b3;
+        System.out.println(b1);
         System.out.println(b2);
 
-        int a;
+        int a = 4;
         int b = 2;
-            a = b;
-            b = a + b;
+        a = b;
+        b = a + b;
         System.out.println(a);
         System.out.println(b);
     }
