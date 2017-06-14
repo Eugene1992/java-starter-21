@@ -1,4 +1,4 @@
-package cw_3;
+package cw_03;
 
 public class IfElse {
     public static void main(String[] args) {

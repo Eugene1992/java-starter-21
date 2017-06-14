@@ -1,4 +1,4 @@
-package cw_3;
+package cw_03;
 
 import java.util.Scanner;
 
