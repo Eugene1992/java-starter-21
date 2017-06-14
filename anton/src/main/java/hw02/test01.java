@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class test01 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String num = scan.next();
+//        String num = scan.next();
 
         int myNumber = scan.nextInt();
         if (myNumber % 2 == 0) {
