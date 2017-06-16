@@ -1,5 +1,6 @@
 package hw02;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -17,9 +18,11 @@ public class Task03 {
         double d = Math.abs(num - b);
         if (c > d) {
             System.out.println(b);
-        } if (d > c) {
+        }
+        if (d > c) {
             System.out.println(a);
         } else {
             System.out.println("CALL THE PROGRAMMER");
         }
-    }    }
+    }
+}
