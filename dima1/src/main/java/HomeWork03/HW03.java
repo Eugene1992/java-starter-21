@@ -10,11 +10,10 @@ import static java.lang.System.out;
 public class HW03 {
     public static void main(String[] args) {
         out.println("Enter the number #1");
-        Scanner numberone = new Scanner(System.in);
-        double a = numberone.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        double a = scanner.nextDouble();
         out.println("Enter the number #2");
-        Scanner numbertwo = new Scanner(System.in);
-        double b = numbertwo.nextInt();
+        double b = scanner.nextDouble();
         if (a == b) {
             System.out.println("I foresaw such a question, and I consider it inappropriate to dismiss it.");
         } else {
@@ -69,7 +68,6 @@ public class HW03 {
             if (b == 10) {
                 System.out.println(10);
             }
-
         }
     }
 }

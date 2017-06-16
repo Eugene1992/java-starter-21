@@ -23,8 +23,5 @@ public class Interval {
         } else {
             System.out.println("WTF reed the sentence");
         }
-
-
-
     }
 }
