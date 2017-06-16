@@ -20,8 +20,8 @@ public class HW03 {
         } else {
             if (a < 10) {  //*Ветка1*//
                 if (b < 10) {
-                    double c1 = (10 - a);
-                    double c2 = (10 - b);
+                    double c1 =  (10 - a);
+                    double c2 =  (10 - b);
                     if (c1 < c2) {
                         System.out.println(a);
                     }
@@ -73,3 +73,4 @@ public class HW03 {
         }
     }
 }
+// TODO: 16.06.2017  
