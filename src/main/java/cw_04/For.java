@@ -23,8 +23,9 @@ public class For {
             i++;
         }*/
 
-        for(int i = 0, j = 100; i < 10; i++, j -= 5) {
+        for(int i = 0, j = 100; i < 10; i++, j -= 4) {
             System.out.println(j);
+            j--;
         }
     }
 }
