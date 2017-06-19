@@ -5,13 +5,10 @@ package HomeWork04;
  */
 public class HW04 {
     public static void main(String[] args) {
-
-
-        for (int a = 0, b = 1; a < 20; b = b * 2 ) {
+        for (int a = 0, b = 1; a < 20; b = b * 2, a++) {
             System.out.println(b);
-            a++;
         }
         System.out.println("End");
-        }
     }
+}
 

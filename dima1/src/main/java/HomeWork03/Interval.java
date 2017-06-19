@@ -40,8 +40,6 @@ public class Interval {
         }
         if (a < 0) {
             System.out.println("wow wow... Easy, boy. I said from 1 to 100.");
-
-
         }
     }
 }

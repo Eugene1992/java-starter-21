@@ -13,11 +13,10 @@ public class HW05 {
         Scanner ver = new Scanner(System.in);
         byte v = ver.nextByte();
 
-
+        long a = 1;
+        long b = v == 1 ? 0 : 1;
 
         if (v == 1) {
-            long a = 1;
-            long b = 0;
             while (a < 99999999) {
                 System.out.println(a);
                 System.out.println(b);
@@ -26,14 +25,11 @@ public class HW05 {
             }
         }
         if (v == 2) {
-            long a = 1;
-            long b = 1;
             while (a < 999999999) {
                 System.out.println(a);
                 System.out.println(b);
                 a = a + b;
                 b = a + b;
-
             }
         }
         if (v == 0) {
