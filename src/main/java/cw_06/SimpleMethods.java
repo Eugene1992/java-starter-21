@@ -18,6 +18,7 @@ public class SimpleMethods {
 
 //        System.out.println(greeting("sds"));
 
+        System.out.println(sum(1, 5));
     }
 
     static int calcD(int a, int b, int c) {
@@ -34,5 +35,17 @@ public class SimpleMethods {
             System.out.println(name);
         }
     }
+
+    static int sum(int from, int to) {
+        int sum = 0;
+        for (int i = from; i < to; i++) {
+            sum = sum + i;
+        }
+        return sum;
+    }
 }
+// Написать метод, который подсчитывает сумму интервала чисел
+// В качестве аргументов принимает начало и конец интервала,
+// возвращает сумму чисел
+
 
