@@ -10,9 +10,9 @@ public class HW01 {
 
         while (a < 10000) {
             System.out.println(a);
-            a += 3;
-            /*switch (a = (short) (a + 3)) {
-            }*/
+            a = 3;
+             {a = (short) (a + 3);
+             }
         }
     }
 }
