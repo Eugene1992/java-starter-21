@@ -5,18 +5,16 @@ package HomeWork06;
  */
 public class HW01 {
     public static void main(String[] args) {
-        System.out.println(calc(1000));
-
+        calc(1000, 3, 10000);
+        calc(1, 7, 100);
     }
 
-    static int calc(int a) {
-        for (int i = 1000; i < 9997; i += 3, a += 3) {
-            System.out.println(a);
-
+    static void calc(int from, int step, int to) {
+        for (int i = from; i < to; i += step) {
+            System.out.print(i + " ");
         }
-        return a;
+        System.out.println();
     }
-
 }
 
 
