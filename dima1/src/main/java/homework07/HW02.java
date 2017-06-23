@@ -10,7 +10,7 @@ public class HW02 {
         pum(iddqd);
     }
     static void pum (double [] iddqd) {
-        for (int i = 8; i >= 0; i--) {
+        for (int i = 8; i < iddqd.length; i--) {
             System.out.println(iddqd [i]);
 
         }
