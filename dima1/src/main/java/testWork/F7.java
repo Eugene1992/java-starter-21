@@ -5,7 +5,7 @@ package testWork;
  */
 public class F7 {
     public static void main(String[] args) {
-        int arrey [] = {34, 17,74, 85, 0, -4, 100, 176};
+        int arrey [] = {34, 17,74, 85, 0, -48, -100, 176, 1};
         minmax(arrey);
 
     }
@@ -15,7 +15,6 @@ public class F7 {
             if (xMax < arrey[i]) {
                 xMax = arrey [i];
             }
-
         }
         int xMin = 1;
         for (int i = 0; i < arrey.length; i++) {
