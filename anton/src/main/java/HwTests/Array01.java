@@ -11,6 +11,8 @@ public class Array01 {
         System.out.println();
         middle(array);
         System.out.println();
+        reverse3(array);
+        System.out.println();
     }
     static void integer(int[] array){
         for (int i = 0; i < array.length ; i++) {
@@ -40,5 +42,10 @@ public class Array01 {
 
         }return sum;
 
+    }
+    static void reverse3(int[] array){
+        for (int i = array.length - 1; i >= 0 ; i--) {
+            System.out.print(i + " ");
+        }
     }
 }
